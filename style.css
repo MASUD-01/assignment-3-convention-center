@@ -12,3 +12,26 @@
 .footer-bg-color{
     background-color: #0B0D17;
 }
+
+
+/* custom responsive under md device */
+
+
+@media only screen and (max-width:767px) {
+    .carousel-inner .choto>p{
+      font-size: 8px;
+    }
+    .carousel-inner .choto>h2{
+        font-size:15px;
+    }
+    .carousel-inner .btn{
+        width: 60px;
+        font-size:10px;
+        padding: 0;
+    }
+  }
+  @media only screen and (max-width:371px){
+    .carousel-inner .choto>p{
+        display: none;
+    }   
+  }
